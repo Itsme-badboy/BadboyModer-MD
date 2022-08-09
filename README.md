@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-Badboy Moder Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/Itsme-badboy" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
+Badboy Moder Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/Itsme-badboy" target="_blank">Badboy</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 
 <p align="center">
