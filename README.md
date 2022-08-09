@@ -1,5 +1,5 @@
 ## Thanks for Everything 
-### We will always remember you..
+### We will always remember you...
 
 
 <h1 align="center">ꪶͥͥͥʙͥᴀͭᴅᷤ ʙᷟᴏͤʏ ᴍ̶͢ᴏ̶ᴅ̶ᴇ̶ʀ̶ ᴍᴅ ʙᴏᴛꫂ<br></h1>
