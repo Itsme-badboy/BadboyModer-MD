@@ -1,8 +1,8 @@
 {
-  "name": "CheemsBot-MD",
+  "name": "BadboyModer-MD",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/DGXeon/CheemsBot-MD4",
-  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "repository": "https://github.com/Itsme-badboy/BadboyModer-MD",
+  "logo": "https://telegra.ph/file/fe0c46a730ac0e507dd57.jpg" width="170" height="170",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
