@@ -14,23 +14,6 @@ Badboy Moder Bot Multi Device is a automated whatsapp bot created by <a href="ht
 <p align="center">
 <a href="https://youtu.be/fBNiy3nfcgg"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
 </p>
-
-------
-
-# ```Bot Info```
-<p align="center">
-<a href="https://github.com/Itsme-badboy/followers"><img title="Followers" src="https://img.shields.io/github/followers/Itsme-badboy?color=red&style=flat-square"></a>
-<a href="https://github.com/Itsme-badboy/BadboyModer-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Itsme-badboy/BadboyModer-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/Itsme-badboy/BadboyModer-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Itsme-badboy/BadboyModer-MD?color=red&style=flat-square"></a>
-<a href="https://github.com/Itsme-badboy/BadboyModer-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Itsme-badboy/BadboyModer-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/Itsme-badboy/BadboyModer-MD"><img title="Open Source" src="https://img.shields.io/badge/Author-Xeon%20Bot%20Inc.-red?v=103"></a>
-<a href="https://github.com/Itsme-badboy/BadboyModer-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/Itsme-badboy/BadboyModer-MD?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FItsme-badboy%2FBadboyModer-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/Itsme-badboy/BadboyModer-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
-</p>
-<p align='center'>
-    </p>
-
 -------
 
 ## ```Connect With Me```
