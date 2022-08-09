@@ -76,7 +76,7 @@ pkg install imagemagick -y
 git clone https://github.com/Itsme-badboy/BadboyModer-MD
 cd CheemsBot-MD
 npm start
-```
+``
 ## `For VPS`
 ```bash
 apt install nodejs 
