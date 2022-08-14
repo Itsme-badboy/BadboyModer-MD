@@ -1,143 +1,84 @@
-//════════════════════════════//
-//If you want to recode, reupload
-//or copy the codes/script,
-//pls give credit
-//no credit? i will take action immediately
-//© 2022 Badboy Bot Inc. Anna Bot MD
-//Thank you to Lord Buddha, Family and Myself
-//════════════════════════════//
-//recode kar ke youtube pe upload kar rhe hai ya
-//codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
-// ka link paste kr dena as a cradit or github 
-//repo me bhi tag kardena baki jo
-//bhi karna hai apki marzi, thank you!🫂
-//════════════════════════════//
-//If you recode and uploading on your channel
-//or copy pasting the codes in ur script, 
-//i give permission to do as long as you
-//put Badboys youtube channel link in the video
-//description and tag me on githuh repo, 
-//thank you😜
-//════════════════════════════//
+/*
+
+ 𝙌𝙪𝙚𝙚𝙣 𝙀𝙡𝙞𝙨𝙖 𝙈𝘿 𝘽𝙮 𝘿𝙖𝙧𝙠 𝙈𝙖𝙠𝙚𝙧 
+ 𝙋𝙪𝙗𝙡𝙞𝙘 𝘿𝙖𝙩𝙚 - 2022 / 07 / 03 
+ 𝙏𝙝𝙖𝙣𝙠𝙨 𝙏𝙤 𝙎𝙘𝙧𝙞𝙥𝙩 𝙁𝙧𝙤 𝙂𝙤𝙟𝙤 𝙎𝙖𝙩𝙤𝙧𝙪
+ 
+ 𝙏𝙝𝙖𝙣𝙠𝙨 𝙏𝙤
+           𝘼𝙡𝙡 𝙃𝙚𝙡𝙥𝙚𝙧𝙨 💞
+*/
+
+
 
 const fs = require('fs')
 const chalk = require('chalk')
 
-//Api Website\\
+//global api
+global.fbapi = 'dd79-1aeb-21a3' // Facebook download 2 api
+
 global.APIs = {
-	zenz: 'https://zenzapis.xyz',
+	zenz: 'https://zenzapi.xyz', 
 }
-
-//Api Key\\
 global.APIKeys = {
-	'https://zenzapis.xyz': 'your key',
+	'https://zenzapi.xyz': '01ABEB1E11', //Kalau habis beli sendiri
 }
 
-
-//aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = false //auto reading in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
-global.available = true //auto available (true to on, false to off)
-
-//semt menu variants
-global.vidmenu = fs.readFileSync("./XeonMedia/theme/Cheems-bot.mp4") //gif and video menu
-
-//documents variants
-global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
-global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-global.doc4 = 'application/zip'
-global.doc5 = 'application/pdf'
-global.doc6 = 'application/vnd.android.package-archive'
-
-//owmner v card
-global.vcardowner = ['919645697828'] //ur owner number
-global.ownername = "🫂Dream Guy Anna" //ur owner name
-global.ytname = "YT: BADBOY MODER" //ur yt chanel name
-global.socialm = "GitHub: BADBMODER" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
-
-//bot bomdy 
-global.owner = ['919645697828']
-global.ownertag = '919645697828' //ur tag number
-global.botname = 'Anna' //ur bot name
-global.linkz = "https://youtu.be/WiIdiDjFo" //your theme url which will be displayed on whatsapp
-global.websitex = "https://youtu.be/WiIdiDjFo" //ur website to be displayed
-global.botscript = 'https://github.com/BADBMODER/AnnaBot-MD' //𝚂𝙲𝚁𝙸𝙿𝚃 𝙻𝙸𝙽𝙺
-global.reactmoji = "☠️" //ur menu react emoji
-global.themeemoji = "🫂" //ur theme emoji
-global.packname = "Anna Bot Stickers\n\n\n\n\n\n\n\n\n\n\n🫂🫂🫂 " //ur sticker watermark packname
-global.author = "🫂Dream Guy Anna" //ur sticker watermark author
-
-//Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-
-//damtabase
-global.premium = ['919645697828'] //ur premium numbers
-global.ntilinkytvid = []
-global.ntilinkytch = []
-global.ntilinkig = []
-global.ntilinkfb = []
-global.ntilinktg = []
-global.ntilinktt = []
-global.ntilinktwt = []
-global.ntilinkall = []
-global.nticall = []
-global.ntwame = []
-global.nttoxic = []
-global.ntnsfw = []
-global.ntvirtex = []
-global.rkyt = []
-global.wlcm = []
-global.gcrevoke = []
-global.autorep = []
-global.ntilink = []
-
-//omther
+//other
+global.owner = ['919645697828'] // Owner number ,
+global.pemilik = ['919645697828'] //Change  it , 
+global.premium = ['919645697828'] //Change it 
+global.pengguna = 'ʙͥᴀͭᴅᷤʙᷟᴏͤʏ' // Your name
+global.botnma = '💃 ʙͥᴀͭᴅᷤʙᷟᴏͤʏ ᴍ̶͢ᴏ̶ᴅ̶ᴇ̶ʀ̶ ʙᴏᴛ 💃' // Your bot name ,
+global.ownernma = 'ʙͥᴀͭᴅᷤʙᷟᴏͤʏ' //ownernama,ownername
+global.packname = 'ʙͥᴀͭᴅᷤʙᷟᴏͤʏ ᴍ̶͢ᴏ̶ᴅ̶ᴇ̶ʀ̶ ʙᴏᴛ // Sticker package name 
+global.author = 'ʙͥᴀͭᴅᷤʙᷟᴏͤʏ' // Sticker Autor name 
 global.sessionName = 'session'
-global.antitags = true
-global.prefa = ['','!','.','🐦','🐤','🗿']
-global.sp = '⭔'
+global.prefa = ['#','!','/',''] 
+global.sp = '🔵'
+// Alive massage.💃
+global.alivelogo = `https://i.ibb.co/jyKDmsP/20220801-152954.jpg`
+global.alive =`Hello i am alive now
+
+Download song type .yt 
+Thanks fro using...`
+// Welcome massage.
+global.welcome = `
+🌀 Thanks Fro using ʙͥᴀͭᴅᷤʙᷟᴏͤʏ ᴍ̶͢ᴏ̶ᴅ̶ᴇ̶ʀ̶ ʙᴏᴛ
+✾ Some bugs fixing
+😼♥️
+`
+// add 
+global.sendwelcome = `add`
+// Good bye
+global.sendgoodbye = `remove`
+// Caption 
+global.cap = `© 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 ʙͥᴀͭᴅᷤʙᷟᴏͤʏ ᴍ̶͢ᴏ̶ᴅ̶ᴇ̶ʀ̶ 𝐌𝐃`
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
-    error: 'Error!!',
+    success: '✅ Done!',
+    admin: 'you must be admin to use this cmd!',
+    botAdmin: 'Bot must be admin neh!',
+    owner: 'This cmd is for ʙͥᴀͭᴅᷤʙᷟᴏͤʏ ᴍ̶͢ᴏ̶ᴅ̶ᴇ̶ʀ̶ ʙᴏᴛ owner only',
+    group: 'oooh sorry this cmd is for groups only!',
+    private: 'goossssh it can only used in dms!',
+    bot: 'This cmd  its only for the bot host',
+    wait: 'Wait ʙͥᴀͭᴅᷤʙᷟᴏͤʏ ᴍ̶͢ᴏ̶ᴅ̶ᴇ̶ʀ̶ ʙᴏᴛ processing ',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
 }
-    global.limitawal = {
-    premium: "Infinity",
-    free: 12,
-    monayawal: 1000
+global.limitawal = {
+    premium: "Infinity", 
+    free: 90 
 }
-   global.rpg = {
-   darahawal: 100,
-   besiawal: 15,
-   goldawal: 10,
-   emeraldawal: 5,
-   umpanawal: 5,
-   potionawal: 1
-}
-global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
-global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+    global.rpg = {
+        darahawal: 100,
+        besiawal: 15,
+        goldawal: 10,
+        emeraldawal: 5,
+        umpanawal: 5,
+        potionawal: 1
+     }    
+
+global.thumb = fs.readFileSync('./image/Elisa.jpg')
+global.imgalive = fs.readFileSync('./image/Elisa.jpg')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
